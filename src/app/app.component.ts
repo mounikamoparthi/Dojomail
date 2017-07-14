@@ -9,28 +9,28 @@ export class AppComponent {
   title = 'Dojo Mail';
   emails = [
     {
-      Email: "bill@gates.com",
+      Email: 'bill@gates.com',
       Importance: true,
-      Subject: "New Windows",
+      Subject: 'New Windows',
       Content: 'Windows XI will launch in year 2100',
     },
     {
-      Email: "ada@lovelace.com",
+      Email: 'ada@lovelace.com',
       Importance: true,
-      Subject: "Programming",
-      Content: "Enchantress of Numbers",
+      Subject: 'Programming',
+      Content: 'Enchantress of Numbers',
     },
     {
-      Email: "john@carmac.com",
+      Email: 'john@carmac.com',
       Importance: false,
-      Subject: "Updated Algo",
-      Content: "New algo for shadow volumes",
+      Subject: 'Updated Algo',
+      Content: 'New algo for shadow volumes',
     },
     {
-      Email: "phil@newel.com",
+      Email: 'phil@newel.com',
       Importance: false,
-      Subject: "HL3!",
-      Content: "Just Kidding...",
+      Subject: 'HL3!',
+      Content: 'Just Kidding...',
     }
   ]
 }
